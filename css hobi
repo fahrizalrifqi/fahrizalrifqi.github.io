@@ -1,0 +1,7 @@
+body{
+  	margin: 0;
+  	padding: 0;
+   	background-image: url(https://github.com/fahrizalrifqi/fahrizalrifqi.github.io/blob/master/Fahrhobi.png);
+	height: 100%;
+	width: 100%}
+.p{font-family:"Verdana" Sans-Serif}
