@@ -3,9 +3,33 @@
   <head>
 	  <meta charset="utf-8">
 	  <title>Sen</title>
+	  <style>
+		  html {background:url(') repeat center center fixed;background-size:cover;}
+	  <script type="text/javascript">
+			  window.onload = function(){jam();}
+			  
+			  function jam() {
+				  var a = document.getElemntById('jam'),
+				  d = new Date(), h, m, s;
+				  h = d.getHours();
+				  m = set(d,getMinutes());
+				  s = set(d.getSeconds());
+				  
+				  a.innerHTML = h + ":" + m + ":" + s;
+				  
+				  setTimeout('jam(), 1000);
+			  }
+			  
+			  function set(a) {
+				  a = a < 10 ? '0' + a : a;
+				  return a;
+			  }
+				  (/script)
+	  
+	  </style>
   </head>
 
-  <body>
+  <body style="font-size: " id="jam" >
 	 
 
   </body>
