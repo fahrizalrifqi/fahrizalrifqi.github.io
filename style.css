@@ -4,3 +4,14 @@ div {
 	left: 50%;
 	transform: translate(-50;-50);
 }
+
+.typing > * {
+	overflow: hidden ;
+	white-space: nowrap;
+	animation:typingAnim 3s steps(27);
+	
+}
+@keyframes typingAnim {
+	from {width:0}
+	to {width: 100%}
+}
